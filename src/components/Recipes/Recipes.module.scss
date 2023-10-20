@@ -1,0 +1,30 @@
+@import "../../index.scss";
+.title {
+    font-family: Sen;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 138px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $bgColor;
+  }
+  .text {
+    color: $textColor;
+    border-radius: 20px;
+  }
+ .photo{
+width: 900px;
+
+
+ }
+ .cards{
+    border-radius: 30px;
+    img{
+        border-top-right-radius: 30px ;
+        border-top-left-radius: 30px ;
+    }
+ }
+ .data{
+    color: $bgColor;
+ }
+ 

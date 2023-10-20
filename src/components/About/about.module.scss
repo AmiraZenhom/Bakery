@@ -1,0 +1,32 @@
+@import "../../index.scss";
+
+.data {
+  background-color: $bgColor;
+  display: flex;
+  justify-content: center;
+}
+.bgabout {
+  background-color: $textColor;
+}
+.photo1 {
+  position: absolute;
+  top: 40px;
+  right: 75px;
+}
+.text {
+  color: $textColor;
+  border-radius: 20px;
+}
+.title {
+  font-size: 120px;
+  color: $textColor;
+}
+
+.aboutImg {
+  width: 600px;
+  height: 600px;
+
+}
+.chef {
+  position: relative;
+}

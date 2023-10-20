@@ -1,0 +1,30 @@
+@import"../../index.scss";
+.data{
+    background-color: $formColor;
+    border-radius: 30px;
+    border: transparent;
+    padding: 10px;
+    color: $formText;
+   margin: 5px;
+}
+.send{
+    border-radius: 20px;
+    padding: 7px;
+   border: 1px solid $bgColor;
+   color: black;
+   width: 100px;
+   
+}
+.title {
+    font-family: Sen;
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 138px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $bgColor;
+  }
+.icons{
+    color: $bgColor;
+  
+}

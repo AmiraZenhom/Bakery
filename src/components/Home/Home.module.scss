@@ -1,0 +1,102 @@
+@import "../../index.scss";
+.caption{
+    color: $textColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:left;
+}
+.title{
+    font-size: 55px;
+    font-weight: 100px;
+}
+.parent{
+    position: relative;
+}
+.data {
+    background-color: $bgColor;
+    display: flex;
+    justify-content: center;
+    height: 630px;
+   
+  }
+  .right{
+    background-image: url(../../images/bg.png);
+    
+  }
+  .layer{
+    background-color:rgba(255, 255, 255, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    ;
+}
+.photo1{
+    position: absolute;
+    top: 230px;
+    left: 680px;
+   
+}
+.photo2{
+    position: absolute;
+    top: 470px;
+    left: 870px;
+   
+
+}
+.socialicons{
+    width: 320px;
+    height: 160px;
+    background-color: $textColor;
+    background-image: url(../../images/Gg.png);
+    position: absolute;
+    top: 80%;
+    left: 0;
+    color: $bgColor;
+    
+}
+.icons{
+    display: flex;
+  align-items: end;
+    flex-direction: column;
+    font-size: 20px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 235px;
+    display: flex;
+    justify-content:center;
+   
+   img{
+    width: 40px;
+    }
+}
+.btn{
+    position: absolute;
+    bottom: 150px;
+    left: 240px;
+    color: $textColor;
+    border-radius: 20px;
+   
+}
+.bodytext{
+    position: absolute;
+    top: 150px;
+    left: 770px; 
+      
+}
+.bodytext2{
+    position: absolute;
+    top: 145px;
+    left: 770px; 
+      
+}
+.phone{
+    color: $textColor;
+    position: absolute;
+    bottom: 10px;
+    left: 340px;
+}
